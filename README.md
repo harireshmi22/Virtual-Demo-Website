@@ -1,6 +1,6 @@
 # VirtualR - Demo Website
 
-![VirtualR Logo](src/assets/logo.png)
+<img src="src/assets/logo.png" alt="VirtualR Logo" width="150" height="auto">
 
 A modern demo website built with React and Tailwind CSS showcasing a fictional VR development platform.
 
