@@ -1,12 +1,83 @@
-# React + Vite
+# VirtualR - Demo Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![VirtualR Logo](src/assets/logo.png)
 
-Currently, two official plugins are available:
+A modern demo website built with React and Tailwind CSS showcasing a fictional VR development platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Responsive Navigation**: Mobile-friendly navbar with hamburger menu
+- **Hero Section**: Dynamic hero section with dual video display
+- **Feature Showcase**: Grid layout showcasing platform features
+- **Workflow Section**: Visual representation of the development process
+- **Pricing Plans**: Three-tier pricing structure
+- **Testimonials**: Customer feedback display
+- **Footer**: Organized link structure with resources, platform, and community sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React**: Version 19.1.0
+- **Vite**: Version 6.3.5
+- **Tailwind CSS**: Version 4.1.8
+- **Lucide React**: Version 0.513.0 for icons
+
+## 🏃‍♂️ Getting Started
+
+1. Clone the repository:
+```sh
+git clone <repository-url>
+cd frontend
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Run development server:
+```sh
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+frontend/
+├── src/
+│   ├── components/          # React components
+│   │   ├── Navbar.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── FeatureSection.jsx
+│   │   ├── Workflow.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── Footer.jsx
+│   ├── constants/          # Constant values and data
+│   ├── assets/            # Images and videos
+│   └── App.jsx           # Main component
+```
+
+## 💻 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🎨 Styling
+
+The project uses Tailwind CSS with custom configuration:
+- Custom color scheme with gradients
+- Responsive design patterns
+- Custom font families: Inter, Outfit, Otomanopee One
+
+## 🔧 Configuration Files
+
+- `vite.config.js` - Vite configuration
+- `tailwind.config.js` - Tailwind CSS configuration
+- `eslint.config.js` - ESLint rules
+- `postcss.config.mjs` - PostCSS configuration
+
+## 📝 License
+
+This project is licensed under the MIT License.
