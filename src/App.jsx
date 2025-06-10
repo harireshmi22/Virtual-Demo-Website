@@ -8,6 +8,7 @@ import Workflow from './components/Workflow';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import Font from './components/font'; // Assuming this is a component for custom fonts
 
 const App = () => {
   return (

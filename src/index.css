@@ -1,11 +1,41 @@
-/* All @import statements MUST be at the top */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Otomanopee+One&display=swap');
-@import "tailwindcss";
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-:root {
-  font-family: 'Inter', 'Outfit', 'Otomanopee One', sans-serif;
-  background-color: black;
+@font-face {
+  font-family: 'ROG Lyons Type Regular';
+  src: url('/fonts/ROGLyonsTypeRegular3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Optional: improves loading performance */
 }
 
-/* Rest of your CSS styles... */
+
+@import "tailwindcss";
+
+@layer utilities {
+  .font-edu {
+    font-family: "Edu VIC WA NT Hand", cursive;
+  }
+
+  .font-orbitron {
+    font-family: "Orbitron", sans-serif;
+  }
+
+  .font-audiowide {
+    font-family: "Audiowide", sans-serif;
+  }
+
+}
+
+@theme {
+  --font-rog: ROG Lyons Type Regular, "sans-serif";
+}
+
+:root {
+  background-color: black;
+}

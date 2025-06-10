@@ -17,19 +17,19 @@ const Navbar = () => {
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
                         <img src={logo} alt="Logo" className="h-10 w-10 mr-2" />
-                        <span className='text-xl tracking-tight text-white'>VirtualR</span>
+                        <span className='text-xl tracking-tight text-white font-orbitron font-black uppercase'>VirtualR</span>
 
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
                         {navItems.map((item, index) => (
                             <li key={index}>
-                                <a href={item.href} className='text-white'>{item.label}</a>
+                                <a href={item.href} className='text-white font-orbitron font-semibold uppercase'>{item.label}</a>
                             </li>
                         ))}
                     </ul>
                     <div className="hidden lg:flex justify-center space-x-8 items-center">
-                        <a href="#" className='py-2 px-6 border border-gray-50 text-white rounded-md'>Sign In</a>
-                        <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white'>
+                        <a href="#" className='py-2 px-6 border border-gray-50 text-white rounded-md font-orbitron font-semibold uppercase'>Sign In</a>
+                        <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white font-orbitron font-semibold uppercase'>
                             Create a account
                         </a>
                     </div>
@@ -42,17 +42,17 @@ const Navbar = () => {
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">
-                                    <a href={item.href} className='text-white'>{item.label}</a>
+                                    <a href={item.href} className='text-white font-orbitron uppercase'>{item.label}</a>
                                 </li>
                             ))}
                         </ul>
                         <div className="flex space-x-6">
-                            <a href="#" className="py-2 px-3 border border-white text-white rounded-md ">
+                            <a href="#" className="py-2 px-3 border border-white text-white rounded-md font-orbitron uppercase">
                                 Sign In
                             </a>
                             <a
                                 href="#"
-                                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
+                                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 font-orbitron uppercase text-center text-white"
                             >
                                 Create an account
                             </a>
